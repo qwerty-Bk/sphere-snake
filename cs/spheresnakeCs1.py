@@ -154,7 +154,7 @@ class InfWindow:
     def __init__(self, PointClass):
 
         if PointClass == "Shapoval":
-            self.photo = pygame.image.load('cs/ShapovalBig.png')
+            self.photo = pygame.image.load('cs/shapovalBig.png')
             self.name = ["Шаповал Александр Борисович"]
             self.description = ["Преподает математический анализ.", '"Всегда приятно в аудитории сделать бяку"']
             self.ability = ["За опоздание ты оказался на елке позора.", "Мне за тебя очень стыдно.", "Все на карте в течение 8 секунд", "бегут от тебя."]
